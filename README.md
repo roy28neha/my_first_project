@@ -11,7 +11,7 @@ This repository contains a data science project focused on analyzing global COVI
 ##  Tech stack & Tools
 * **Language:** Python
 * **Environment:** Jupyter Notebook
-* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn (or whichever ones you used!)
+* **Libraries:** Pandas, NumPy, Matplotlib.
 
 ##  Key Insights & Features
 * Data cleaning and preprocessing of raw time-series data.
@@ -26,7 +26,7 @@ When looking at total cases over the whole period, the US recorded the highest n
 Flipped the data from a messy 498-column layout into a clean, easy-to-read timeline using Pandas .melt().
 
 ** Fixed missing Data:
-filled missing tracking values using smart forward-filling (.ffill()) so the charts didn't have random gaps.
+filled missing tracking values using forward-filling (.ffill()) so the charts don't have random gaps.
 
 ** Cleaned Up Blank Labels:
 Found empty spaces in the region column and grouped them cleanly under an 'All Provinces'.
