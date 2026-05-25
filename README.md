@@ -17,3 +17,23 @@ This repository contains a data science project focused on analyzing global COVI
 ## 🚀 Key Insights & Features
 * Data cleaning and preprocessing of raw time-series data.
 * Visualizations showing growth rates and trends across different countries.
+
+ ## The Data Tells Us
+The Biggest Outbreaks:
+When looking at total cases over the whole period, the US recorded the highest numbers, followed closely by India and Brazil.
+
+## Behind the Scenes (Data Cleaning)
+Reshaped the Rows: 
+Flipped the data from a messy 498-column layout into a clean, easy-to-read timeline using Pandas .melt().
+
+Fixed missing Data:
+filled missing tracking values using smart forward-filling (.ffill()) so the charts didn't have random gaps.
+
+Cleaned Up Blank Labels:
+Found empty spaces in the region column and grouped them cleanly under an 'All Provinces'.
+
+
+
+
+
+
